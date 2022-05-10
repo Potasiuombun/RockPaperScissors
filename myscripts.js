@@ -50,7 +50,7 @@ function playRound(player, computer)
     let a = player
     let b = computer
 
-    if ((value(a)+1)%3 === value(b))
+    if ((value(a)+1) %3 === value(b))
     {
         return "Computer won"
     }
